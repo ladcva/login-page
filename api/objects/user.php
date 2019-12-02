@@ -71,7 +71,7 @@ class User{
             WHERE
                 username='".$this->username."'";
         // prepare query statement
-        $stmt = $this->conn->prepare($query);
+        $stmt = $this->conn->prepare($query); // a Quý fix pls
         // execute query
         $stmt->execute();
         if($stmt->rowCount() > 0){
