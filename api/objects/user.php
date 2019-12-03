@@ -8,6 +8,8 @@ class User{
     // object properties
     public $id;
     public $username;
+    public $first_name;
+    public $last_name;
     public $password;
     public $created;
  
@@ -25,18 +27,22 @@ class User{
         $query = "INSERT INTO
                     " . $this->table_name . "
                 SET
-                    username=:username, password=:password, created=:created";
+                    username=:username, first_name=:first_name, last_name=:last_name, password=:password, created=:created";
     
         // prepare query
         $stmt = $this->conn->prepare($query);
     
         // sanitize
         $this->username=htmlspecialchars(strip_tags($this->username));
+        $this->first_name=htmlspecialchars(strip_tags($this->first_name));
+        $this->last_name=htmlspecialchars(strip_tags($this->last_name));
         $this->password=htmlspecialchars(strip_tags($this->password));
         $this->created=htmlspecialchars(strip_tags($this->created));
     
         // bind values
         $stmt->bindParam(":username", $this->username);
+        $stmt->bindParam(":first_name", $this->first_name);
+        $stmt->bindParam(":last_name", $this->last_name);
         $stmt->bindParam(":password", $this->password);
         $stmt->bindParam(":created", $this->created);
     
@@ -53,7 +59,7 @@ class User{
     function login(){
         // select all query
         $query = "SELECT
-                    `id`, `username`, `password`, `created`
+                    `id`, `username`, `username`, `password`, `created`
                 FROM
                     " . $this->table_name . " 
                 WHERE
