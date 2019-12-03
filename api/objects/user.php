@@ -59,7 +59,7 @@ class User{
     function login(){
         // select all query
         $query = "SELECT
-                    `id`, `username`, `username`, `password`, `created`
+                    `id`, `username`, `first_name`, `last_name`, `password`, `created`
                 FROM
                     " . $this->table_name . " 
                 WHERE
@@ -77,7 +77,7 @@ class User{
             WHERE
                 username='".$this->username."'";
         // prepare query statement
-        $stmt = $this->conn->prepare($query); // a Quý fix pls
+        $stmt = $this->conn->prepare($query);
         // execute query
         $stmt->execute();
         if($stmt->rowCount() > 0){
