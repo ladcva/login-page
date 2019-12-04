@@ -1,5 +1,5 @@
 <?php
-// include database and object files
+// include database and object files anh quy join git
 include_once '../config/database.php';
 include_once '../objects/user.php';
  
