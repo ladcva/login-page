@@ -1,7 +1,7 @@
 <?php
 class Database{
  
-    // specify your own database credentials
+    // specify your own database credentials Long
     private $host = "127.0.0.1";
     private $db_name = "PHPLearning";
     private $username = "root";
