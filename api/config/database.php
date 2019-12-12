@@ -1,7 +1,7 @@
 <?php
 class Database{
  
-    // specify your own database credentials Long
+    // specify your own database credentials ok bay gio anh Thang join dc nhom trn git roi do
     private $host = "127.0.0.1";
     private $db_name = "PHPLearning";
     private $username = "root";
