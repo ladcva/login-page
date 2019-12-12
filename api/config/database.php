@@ -8,7 +8,7 @@ class Database{
     private $password = "zozazozin1";
     public $conn;
  
-    // get the database connection
+    // get the database connection - chinh sua cai gi do
     public function getConnection(){
  
         $this->conn = null;
