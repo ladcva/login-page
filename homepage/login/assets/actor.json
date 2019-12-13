@@ -1,0 +1,50 @@
+[
+  {
+    "actor_id": 103,
+    "first_name": "ANH DUC",
+    "last_name": "LE",
+    "last_update": "2019-11-13 09:46:59"
+  },
+  {
+    "actor_id": 108,
+    "first_name": "STEVE",
+    "last_name": "JOBS",
+    "last_update": "2019-11-13 09:46:59"
+  },
+  {
+    "actor_id": 109,
+    "first_name": "JOHN",
+    "last_name": "WICK",
+    "last_update": "2019-11-18 09:01:47"
+  },
+  {
+    "actor_id": 114,
+    "first_name": "GARETH",
+    "last_name": "BALE",
+    "last_update": "2019-11-18 09:03:53"
+  },
+  {
+    "actor_id": 120,
+    "first_name": "EDWARD",
+    "last_name": "SKATE",
+    "last_update": "2019-11-18 09:05:23"
+  },
+  {
+    "actor_id": 121,
+    "first_name": "LEONARDO",
+    "last_name": "SIMSON",
+    "last_update": "2019-11-18 09:03:53"
+  },
+  {
+    "actor_id": 131,
+    "first_name": "ABRAHAM",
+    "last_name": "LINCOLN",
+    "last_update": "2019-11-18 09:07:37"
+  },
+  {
+    "actor_id": 137,
+    "first_name": "JACK",
+    "last_name": "SPINTER",
+    "last_update": "2019-11-18 09:07:37"
+  }
+]
