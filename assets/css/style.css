@@ -10,20 +10,21 @@ body{
 .clearfix:after{clear:both;display:block}
 a{color:inherit;text-decoration:none}
 .login-wrap{
+  height: 100%;
   width:100%;
   margin:auto;
-  margin-top: 30px;
-  max-width:525px;
-  min-height:570px;
+  margin-top: 20px;
+  max-width:800px;
+  min-height:600px;
   position:relative;
   background:url(http://images.unsplash.com/photo-1485160497022-3e09382fb310?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max) no-repeat center;
   box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
 .login-html{
   width:100%;
-  height:100%;
+  height:104%;
   position:absolute;
-  padding:90px 70px 50px 70px;
+  padding:60px 70px 50px 70px;
   background:rgba(40,57,101,.9);
 }
 .login-html .sign-in-htm,
@@ -52,7 +53,7 @@ a{color:inherit;text-decoration:none}
 .login-html .tab{
   font-size:22px;
   margin-right:15px;
-  padding-bottom:5px;
+  padding-bottom:15px;
   margin:0 15px 10px 0;
   display:inline-block;
   border-bottom:2px solid transparent;
@@ -134,12 +135,12 @@ a{color:inherit;text-decoration:none}
   background:#1161ee;
 }
 .login-form .group .check:checked + label .icon:before{
-  -webkit-transform:scale(1) rotate(45deg);
-          transform:scale(1) rotate(45deg);
+  -webkit-transform:scale(1) rotate(180deg);
+          transform:scale(1) rotate(180deg);
 }
 .login-form .group .check:checked + label .icon:after{
-  -webkit-transform:scale(1) rotate(-45deg);
-          transform:scale(1) rotate(-45deg);
+  -webkit-transform:scale(1) rotate(-180deg);
+          transform:scale(1) rotate(-180deg);
 }
 .login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
   -webkit-transform:rotate(0);
