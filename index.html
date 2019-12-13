@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Nhóm chát @</title>
-  <script type="text/javascript" src="http://livejs.com/live.js"></script>
+  
   
   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>
       <link rel="stylesheet" href="./assets/css/style.css">
@@ -18,11 +18,11 @@
       <form class="sign-in-htm" action="./api/user/login.php" method="GET">
         <div class="group">
           <label for="user" class="label">Tên Đăng Nhập :</label>
-          <input id="username" name="username" type="text" class="input">
+          <input id="username" name="username" type="text" class="input" required>
         </div>
         <div class="group">
           <label for="pass" class="label">Mật khẩu</label>
-          <input id="password" name="password" type="password" class="input" data-type="password">
+          <input id="password" name="password" type="password" class="input" data-type="password" required>
         </div>
         <div class="group">
           <input id="check" type="checkbox" class="check" checked>
