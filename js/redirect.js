@@ -16,3 +16,5 @@ const handleClick = () => {
 	document.getElementById('msg').innerHTML = `Your email has been sent! You will be back to main page in <span id='countdown'></span> seconds`
   countdown()
 }
+
+// :v
